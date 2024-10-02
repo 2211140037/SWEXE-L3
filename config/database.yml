@@ -28,5 +28,5 @@ production:
   pool: 5
   database: test_render_mp7u
   username: test_render_mp7u_user
-  password: <%= ENV['MYSITE_DATABASE_PASSWORD'] %>
-  url: <%= ENV['DATABASE_URL'] %>
+  password: <%= ENV['PImFkKlHtngxWh8KNwn9NPTpBNXoPtX6'] %>
+  url: <%= ENV['postgresql://test_render_mp7u_user:PImFkKlHtngxWh8KNwn9NPTpBNXoPtX6@dpg-crufu0btq21c738i4r50-a/test_render_mp7u'] %>
