@@ -65,6 +65,7 @@ Rails.application.configure do
   # Annotate rendered view with file names.
   # config.action_view.annotate_rendered_view_with_filenames = true
 
-  # Uncomment if you wish to allow Action Cable access from any origin.
+  # Uncomment if you wish to allow Action Cable access from any origin
   # config.action_cable.disable_request_forgery_protection = true
+  config.hosts << "8ad512e339e44954853a9c0f43739dc7.vfs.cloud9.us-east-1.amazonaws.com"
 end
